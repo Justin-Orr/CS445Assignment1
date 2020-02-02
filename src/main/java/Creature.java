@@ -1,6 +1,6 @@
 public abstract class Creature extends Thing{
 
-    private String lastMeal;
+    protected String lastMeal;
     
     public Creature(String name){
 	super(name);
