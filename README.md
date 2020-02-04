@@ -21,17 +21,17 @@ TestCreature.java contains the main method. It's purpose is to help test the 'Th
 AppTest.java contains the unit test cases for JUnit.
 
 PREREQUISITES:
-java 8 installed;
-junit 4 http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar -O junit-4.12.jar;
-hamcrest 1.3 http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar -O hamcrest-core-1.3.jar;
+java 8 installed  
+junit 4 http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar -O junit-4.12.jar  
+hamcrest 1.3 http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar -O hamcrest-core-1.3.jar  
 _________________________________________________________________________________________________________
 
 HOW TO RUN: (Linux)
 *Some of the instructions are taken from Professor Bistriceanu at the link above.
-Download the junit and hamcrest jars into your test directory: you can start at jUnit4's github page, or you can use the following commmands:
+Download the junit and hamcrest jars into your test directory: you can start at jUnit4's github page, or you can use the following commmands:  
 
-$ wget http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar -O junit-4.12.jar
-$ wget http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar -O hamcrest-core-1.3.jar
+$ wget http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar -O junit-4.12.jar  
+$ wget http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar -O hamcrest-core-1.3.jar  
 
 Set the CLASSPATH environment variable:
 
