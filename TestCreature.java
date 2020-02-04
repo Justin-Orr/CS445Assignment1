@@ -1,7 +1,10 @@
+/**
+ * TestCreature is a tester/demonstration program to exercise the Thing class hierarchy. 
+ */
 public class TestCreature {
 
-    public static final int CREATURE_COUNT = 4;
-    public static final int THING_COUNT = 4;
+    public static final int CREATURE_COUNT = 4; // number of creatures to create
+    public static final int THING_COUNT = 4;    // number of things to create
     
     public static void main(String[] args) {
 	Thing[] things = new Thing[THING_COUNT];
@@ -36,7 +39,8 @@ public class TestCreature {
 	System.out.println("\nCreatures:\n");
 
 	for(Creature c: creatures) {
-	    System.out.println(c);
+	    c.move();
+	    System.out.print("\n");
 	}
     } 
     
