@@ -45,10 +45,13 @@ Compile the java files:
 
 $ javac *.java
 
+Or use:
+
+$ make
+
 Run the test suite in AppTest:
 
-$ java org.junit.runner.JUnitCore AppTest
-
+$ java org.junit.runner.JUnitCore AppTest  
 
 Or run the main program using:
 
